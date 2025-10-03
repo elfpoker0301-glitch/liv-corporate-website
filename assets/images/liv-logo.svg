@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f9fa"/>
+  
+  <!-- Main Logo Symbol -->
+  <g transform="translate(200,160)">
+    <!-- Crescent Moon -->
+    <path d="M -60 -40 A 50 50 0 0 1 -60 40 A 30 30 0 0 0 -60 -40" fill="#006428" stroke="none"/>
+    
+    <!-- Star -->
+    <g transform="translate(20,0)">
+      <path d="M 0 -35 L 8 -8 L 35 -8 L 14 8 L 22 35 L 0 18 L -22 35 L -14 8 L -35 -8 L -8 -8 Z" fill="#006428" stroke="none"/>
+      <path d="M 0 -25 L 5 -5 L 25 -5 L 10 5 L 15 25 L 0 12 L -15 25 L -10 5 L -25 -5 L -5 -5 Z" fill="#ffffff" stroke="none"/>
+    </g>
+  </g>
+  
+  <!-- Company Name -->
+  <g transform="translate(200,280)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#006428">LIV</text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#006428" letter-spacing="4">CORPORATION</text>
+  </g>
+</svg>
