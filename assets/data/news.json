@@ -1,0 +1,41 @@
+[
+  {
+    "id": 3,
+    "date": {
+      "year": "2025",
+      "month": "11",
+      "day": "03"
+    },
+    "title": "株式会社エトウ様のコーポレートサイトを制作しました",
+    "description": "株式会社エトウ様の公式ウェブサイトの制作を担当させていただきました。",
+    "link": "https://eto-web.com",
+    "linkText": "https://eto-web.com",
+    "category": "制作実績"
+  },
+  {
+    "id": 2,
+    "date": {
+      "year": "2025",
+      "month": "11",
+      "day": "02"
+    },
+    "title": "コーポレートサイトをリニューアルしました",
+    "description": "株式会社LIVの公式ウェブサイトを全面リニューアルいたしました。",
+    "link": null,
+    "linkText": null,
+    "category": "お知らせ"
+  },
+  {
+    "id": 1,
+    "date": {
+      "year": "2025",
+      "month": "10",
+      "day": "01"
+    },
+    "title": "アプリ「Night名簿帳」をリリースしました",
+    "description": "夜のお店向け顧客管理アプリ「Night名簿帳」をApp Storeでリリースいたしました。",
+    "link": "https://apps.apple.com/jp/app/night%E5%90%8D%E7%B0%BF%E5%B8%B3/id6749575718",
+    "linkText": "App Storeで見る",
+    "category": "アプリ"
+  }
+]

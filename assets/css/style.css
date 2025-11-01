@@ -2538,6 +2538,19 @@ section::after {
     text-overflow: ellipsis;
 }
 
+.intro-news-content .news-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #2563eb;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.intro-news-content .news-link:hover {
+    color: #1d4ed8;
+}
+
 .intro-news-arrow {
     display: flex;
     align-items: center;
