@@ -49,27 +49,29 @@ async function displayHomeNews() {
 
 // ニュースページに全ニュースを表示
 async function displayAllNews() {
-    const newsContainer = document.querySelector('.news-container');
+    const newsContainer = document.querySelector('.news-list');
     if (!newsContainer) return;
     
     const newsData = await loadNews(); // 全件表示
     
+    const monthNames = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+    
     newsContainer.innerHTML = newsData.map(news => `
-        <article class="news-card">
-            <div class="news-card-header">
-                <div class="news-date">
-                    <i class="fas fa-calendar-alt"></i>
-                    ${news.date.year}年${news.date.month}月${news.date.day}日
-                </div>
-                <span class="news-category">${news.category}</span>
+        <article class="news-item">
+            <div class="news-date">
+                <span class="date-day">${news.date.day}</span>
+                <span class="date-month">${monthNames[parseInt(news.date.month) - 1]}</span>
+                <span class="date-year">${news.date.year}</span>
             </div>
-            <h3 class="news-title">${news.title}</h3>
-            <p class="news-description">${news.description}</p>
-            ${news.link ? `
-                <a href="${news.link}" class="news-external-link" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i> 詳細を見る
-                </a>
-            ` : ''}
+            <div class="news-content">
+                <h3 class="news-title">${news.title}</h3>
+                <p class="news-excerpt">${news.description}</p>
+                ${news.link ? `
+                    <a href="${news.link}" class="news-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-external-link-alt"></i> ${news.linkText}
+                    </a>
+                ` : ''}
+            </div>
         </article>
     `).join('');
 }
@@ -82,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // ニュースページの場合
-    if (document.querySelector('.news-container')) {
+    if (document.querySelector('.news-list')) {
         displayAllNews();
     }
 });
