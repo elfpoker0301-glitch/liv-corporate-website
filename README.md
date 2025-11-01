@@ -1,6 +1,6 @@
 # 株式会社LIV コーポレートサイト
 
-株式会社LIV（Living Innovation & Vision）の公式コーポレートサイトです。
+株式会社LIV（Living Innovation & Vision）の公式コーポレートサイトです。モダンなデザインと高いユーザビリティを備えた、レスポンシブ対応のWebサイトです。
 
 ## 🌟 特徴
 
@@ -10,13 +10,21 @@
 - **高パフォーマンス**: 最適化されたコードとリソース管理
 - **アクセシブル**: キーボードナビゲーションとスクリーンリーダーに対応
 
-## 🚀 技術スタック
+## 使用技術
 
-- **HTML5**: セマンティックなマークアップ
-- **CSS3**: Flexbox、Grid、CSS変数、アニメーション
-- **JavaScript ES6+**: モジュラーで保守性の高いコード
-- **Font Awesome**: アイコンライブラリ
-- **Google Fonts**: Noto Sans JP フォント
+```text
+HTML5
+CSS3
+JavaScript (ES6+)
+Font Awesome 6.0.0
+Google Fonts (Noto Sans JP)
+```
+
+## デザインシステム
+
+### カラーパレット
+
+- **プライマリー**: #2563eb (青)
 
 ## 📁 プロジェクト構造
 
@@ -55,20 +63,16 @@ liv-corporate-website/
 
 ### 1. ローカル環境での実行
 
-プロジェクトをローカルで実行するには、以下の方法があります：
+プロジェクトを開始するには、以下のいずれかの方法でローカルサーバーを起動してください:
 
-#### 方法1: Live Server拡張機能（推奨）
+#### 方法1: Live Server拡張機能(推奨)
+
 1. VS Codeで「Live Server」拡張機能をインストール
-2. `index.html`を右クリック → "Open with Live Server"
+2. `index.html`を右クリック → 「Open with Live Server」を選択
 
 #### 方法2: Python HTTPサーバー
-```bash
-# Python 3
-cd liv-corporate-website
-python -m http.server 8000
 
-# ブラウザで http://localhost:8000 にアクセス
-```
+```bash
 
 #### 方法3: Node.js HTTPサーバー
 ```bash
