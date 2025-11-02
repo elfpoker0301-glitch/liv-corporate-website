@@ -11,6 +11,17 @@
     "image": null
   },
   {
+    "id": 5,
+    "title": "スイーツ店TSUBAKI 店舗立ち上げ",
+    "category": "business",
+    "client": "株式会社BORBOSS",
+    "date": "2024-09",
+    "description": "株式会社BORBOSS様のスイーツ店TSUBAKIの立ち上げを致しました。店舗の内装と外装はもちろん、今の時代に合わせたスイーツと店舗運営ノウハウをご提供させていただきました。",
+    "technologies": ["店舗設計", "内装・外装デザイン", "運営コンサルティング", "商品開発"],
+    "link": "https://www.instagram.com/tsubaki.aburayama?igsh=MXJ5Zmd5djIwYmFydQ%3D%3D&utm_source=qr",
+    "image": null
+  },
+  {
     "id": 2,
     "title": "Night名簿帳",
     "category": "app",
