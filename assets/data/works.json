@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "株式会社エトウ コーポレートサイト",
+    "category": "website",
+    "client": "株式会社エトウ",
+    "date": "2025-11",
+    "description": "企業の信頼性と専門性を表現したコーポレートサイトを制作。モダンなデザインとレスポンシブ対応で、あらゆるデバイスで最適な閲覧体験を提供します。",
+    "technologies": ["HTML5", "CSS3", "JavaScript"],
+    "link": "https://eto-web.com",
+    "image": null
+  },
+  {
+    "id": 2,
+    "title": "Night名簿帳",
+    "category": "app",
+    "client": "自社開発",
+    "date": "2025-10",
+    "description": "夜のお店向け従業員名簿アプリ。従業員情報を簡単に管理できるiOSアプリです。従業員名簿としてお使いいただけます。",
+    "technologies": ["Swift", "iOS", "Firebase"],
+    "link": "https://apps.apple.com/jp/app/night%E5%90%8D%E7%B0%BF%E5%B8%B3/id6749575718",
+    "image": null
+  },
+  {
+    "id": 3,
+    "title": "アミューズメントバーエルフ",
+    "category": "business",
+    "client": "自社運営",
+    "date": "2023-04",
+    "description": "福岡市中央区天神で運営するアミューズメントバー。お客様に楽しい時間を提供する大人のための空間。店舗運営から集客、マーケティングまで一貫して管理しています。",
+    "technologies": ["店舗運営", "Instagram運用", "イベント企画"],
+    "link": "https://www.instagram.com/amusementbar_elf?igsh=MWdzZGJpbWJmY20wNA%3D%3D&utm_source=qr",
+    "image": null
+  },
+  {
+    "id": 4,
+    "title": "ピヴォアンヌ",
+    "category": "business",
+    "client": "自社運営",
+    "date": "2023-04",
+    "description": "美容と癒しを提供する上質なサロン。お客様一人ひとりに合わせた最高のサービスを提供する、トータルビューティーサロンの運営を行っています。",
+    "technologies": ["店舗運営", "予約管理", "顧客管理"],
+    "link": null,
+    "image": null
+  }
+]
