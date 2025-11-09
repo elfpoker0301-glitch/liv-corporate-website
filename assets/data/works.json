@@ -1,5 +1,16 @@
 [
   {
+    "id": 6,
+    "title": "株式会社ニシボ コーポレートサイト",
+    "category": "website",
+    "client": "株式会社ニシボ",
+    "date": "2025-11",
+    "description": "建設業界における信頼と実績を表現したコーポレートサイトを制作。企業の強みと専門性を効果的に伝えるデザインを実現しました。",
+    "technologies": ["HTML5", "CSS3", "JavaScript"],
+    "link": "https://nishibo.jp",
+    "image": null
+  },
+  {
     "id": 1,
     "title": "株式会社エトウ コーポレートサイト",
     "category": "website",
